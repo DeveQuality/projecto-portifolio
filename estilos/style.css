@@ -61,6 +61,8 @@ section#ficha{
   border-radius: 8px;
 }
 section#ficha img.foto{
-  width: 60vh;
+  width: 200px;
+  aspect-ratio: 1/1;    /* esse comando coloca a imagem em um formato retrato */
+  object-fit: cover;    /* esse comando funciona junto com o de cima */
   border-radius: 40px;
 }

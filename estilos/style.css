@@ -72,10 +72,14 @@ section#ficha img.foto{
   margin: auto;
   margin-bottom: 15px;
 }
-main>section>h1,h3{
+main>section>h1{
     color: var(--texto);
     font-size: 1.5em;
     text-align: left;
+}
+main>section>h3{
+  color: var(--texto);
+  text-decoration: underline;
 }
 div#social{
   display: flex;

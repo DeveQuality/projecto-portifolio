@@ -104,7 +104,7 @@ article{
   border-radius: 6px;
 }
 article h2{
-  color: var(--destaque);
+  color: var(--texto);
   margin-bottom: 10px;
 }
 article#video .video-container{

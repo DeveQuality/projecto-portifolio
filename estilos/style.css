@@ -14,10 +14,10 @@
 :root{
   --fundo-principal:rgb(216, 216, 216);
   --texto:rgb(56, 168, 243);
-  --texto-inverso:rgb(255, 253, 254);
+  --texto-inverso:rgb(115, 169, 183);
   --destaque:rgb(44, 21, 221);
   --destaque-inverso:rgb(9, 169, 190);
-  --fundo-card:rgb(255, 255, 255);
+  --fundo-card:rgb(255, 254, 254);
 }
 body{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
@@ -39,7 +39,7 @@ nav#menu ul{
 }
 nav#menu a{
   text-decoration: none;
-  color: var(--texto-inverso);
+  color: var(--fundo-card);
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
@@ -120,4 +120,38 @@ article#video .video-container iframe{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+#skill-container{
+  display: grid;
+  grid-template-columns:1fr ;
+  gap: 30px;
+}
+#skill-container .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#skill-container .nome{
+  font-weight: bold;
+  color: var(--texto);
+}
+#skill-container .porcent{
+  font-weight: bold;
+  color: var(--destaque);
+}
+#skill-container .barra{
+  width: 100%;
+  height: 8px;
+  background-color: var(--texto);
+  border-radius: 4px;
+}
+#skill-container .progresso{
+  height: 100%;
+  background-color: var(--destaque);
+  border-radius: 4px;
+}
+@media screen and (min-width:769px) {
+  #skill-container{
+    grid-template-columns: 1fr 1fr;
+  }
 }

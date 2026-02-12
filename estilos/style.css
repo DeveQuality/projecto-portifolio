@@ -161,6 +161,7 @@ article#video .video-container iframe{
   border-radius:8px;
   border-left: 5px solid var(--texto);
   padding-left: 15px;
+  padding: 5px;
 }
 #formacao-container .curso:hover{
   border-right: 5px solid var(--texto);

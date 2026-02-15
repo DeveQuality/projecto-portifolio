@@ -76,20 +76,20 @@ section#ficha img.foto{
   object-fit: cover;    /* esse comando funciona junto com o de cima */
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
-  outline: 5px solid var(--destaque);
+  outline: 5px solid var(--texto);
   display: block;
   margin: auto;
   margin-bottom: 15px;
 }
 
 main>section>h1{
-    color: var(--texto);
-    font-size: 1.5em;
-    text-align: left;
+  color: var(--texto);
+  font-size: 1.5em;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 main>section>h3{
-  color: var(--texto);
   text-decoration: underline;
 }
 
@@ -231,6 +231,30 @@ formacao-container .curso,h3:hover{
   overflow: hidden;
   border-radius: 10px;
 
+}
+details>summary{
+  text-decoration: underline;
+}
+div>button{
+  background-color: var(--texto);
+  color: var(--fundo-card);
+  margin: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 3px 4px var(--texto) ;
+}
+div>button>a{
+  color: var(--fundo-card);
+  text-decoration: none;
+}
+div>button:hover{
+  background-color: black;
+}
+div>button>a:hover{
+  text-decoration: underline;
+  color: var(--texto);
+  font-weight: bold;
 }
 
 @media screen and (min-width:769px) {

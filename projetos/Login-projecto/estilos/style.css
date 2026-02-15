@@ -1,0 +1,149 @@
+@charset "UTF8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url(../imagens/2151985515.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;                          /* MAIS USADO PARA AJUSTAR A IMAGEM */
+    
+}
+header{
+    background-color: black;
+}
+
+header>h1{
+    color: white;
+    padding: 20px;
+    padding-top: 35px;
+    font-family: cursive;
+ }
+
+ul{
+    width: auto;
+    display: flex;
+    gap: 19px;         /* Espaço entre os itens */
+    list-style: none;  /* Remove as bolinhas */
+    padding: 10px 20px;
+    margin:0;
+    justify-content: flex-end; /* Alinha à direita */
+        
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1em;
+}
+
+li>a:hover{
+    background-color: rgba(208, 93, 17, 0.594);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav>h1{
+    color: rgb(218, 145, 0);
+    font-family: cursive;
+    margin-right: 20px;
+}
+
+div>h1{
+    font-family: cursive;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    font-size: 2.2em;
+}
+
+div>p{
+    color: white;
+margin-bottom: 30px;
+}
+
+
+div#formulario{
+    background-color: rgba(130, 76, 26, 0.434) ;
+    color: white;
+    width: 50vw;
+    max-width:100%;
+    margin: auto;
+    border-radius: 10px;
+    border-color:  rgba(246, 168, 0, 0.998);
+    padding: 50px;
+    margin-top: 30px;
+    font-family: cursive;
+
+    backdrop-filter: blur(5px);                 /* isso  é para dar um efeito de desfoque no fundo */
+    -webkit-backdrop-filter: blur(10px);
+}
+
+form>p{
+    font-size: 1.3em;
+    padding: 10px;
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(186, 63, 6);
+    border-style: double;
+    background-color: bisque;
+    color: black;
+    padding: 4px;
+}
+
+div>a{
+    margin: 10px;
+    border-radius: 5px;
+    border-color: rgb(251, 103, 5);
+    border-style: double;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 1px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.botao>a:hover{
+background-color: orange;
+color: black;
+cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background: url(../imagens/2150857908.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 100vh;                          /* MAIS USADO PARA AJUSTAR A IMAGEM */
+    }
+}
+
+p#link>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px; 
+    font-weight: bold; 
+}
+
+p#link>a:hover{
+    text-decoration: underline;
+    color: rgb(21, 21, 213);
+
+}
+
+footer{
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}

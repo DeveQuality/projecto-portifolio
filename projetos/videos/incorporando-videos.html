@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporando videos externos</title>
+    <style>
+        body{
+            background-color: rgb(44, 42, 47);
+            color: aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        fieldset{
+            width: 500px;
+            border-radius: 20px;
+            border-color: red;
+        }
+        legend{
+            text-decoration: underline;
+        }
+        picture>a>img{
+            width: 100%;    
+            background-size: cover;
+        }
+    </style>
+</head>
+    <h1>iNCORPORAÇAO DE VIDEOS EXTERNOS COM O HTML</h1>
+    <p>nessa aula vamos aprender a incorporar videos externos com html</p>
+    <fieldset>
+        <legend>Curso em video<br> Clique na foto...</legend>
+        <picture>
+            <a href="videos.html"><img src="video image.jpg" alt="" height="350px" width="600px"></a>
+        </picture>
+    </fieldset>
+    <fieldset>
+        <legend>Curso em video<br>Clique na foto</legend>
+        <picture>
+            <a href="video2.html"><img src="video image.jpg" alt="" height="350px" width="600px"></a>
+        </picture>
+    </fieldset>
+    <fieldset>
+        <legend>Curso em video<br>Clique no Video</legend>
+        <picture>
+            <a href="video3.html"><img src="video image.jpg" alt="" height="350px" width="600px"></a>
+        </picture>
+    </fieldset>
+    <fieldset>
+        <legend>curso em video<br>Clique no Video</legend>
+        <picture>
+            <a href="video4.html"><img src="video image.jpg" alt="" height="350px" width="600px"></a>
+        </picture>
+    </fieldset>
+</body>
+</html>

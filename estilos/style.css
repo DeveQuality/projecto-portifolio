@@ -201,13 +201,13 @@ formacao-container .curso,h3:hover{
   color: var(--texto);
 }
 
-#projecto-container{
+#projeto-container{
   display: flex;
   flex-direction: column-reverse;
   gap: 20px;
 }
 
-#projecto-container .projecto{
+#projeto-container .projeto{
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -216,17 +216,20 @@ formacao-container .curso,h3:hover{
   border-radius: 10px;
   border-left: 5px solid var(--destaque-inverso);
 }
-#projecto-container .projecto:hover{
+
+#projeto-container .projeto:hover{
   border-right: 5px solid var(--texto);
   border-left: none;
   transition: border-width 0.5s;
   cursor: pointer;
 }
-#projecto-container .foto{
+
+#projeto-container .foto{
   width: 100%;
   aspect-ratio: 18/9;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
 
 }
 
@@ -235,16 +238,19 @@ formacao-container .curso,h3:hover{
     grid-template-columns: 1fr 1fr;
   }
 
-  .projecto-container.projecto{
+  #projeto-container .projeto{
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
-  #projecto-container .projecto-info{
+  #projeto-container .projeto-info{
     max-width: 80%;
   }
 
-  #projecto-containeer .foto{
-    
+  #projeto-container .foto{
+    aspect-ratio: 1/1;
+    max-width: 20%;
+    max-height: 200px;
   }
+
 }

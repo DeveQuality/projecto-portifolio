@@ -89,7 +89,10 @@ main>section>h1{
   padding-bottom: 20px;
 }
 
-main>section>h3{
+#ficha>a.sobrenome{
+  color: var(--texto);
+  font-size: 1.2em;
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -255,6 +258,16 @@ div>button>a:hover{
   text-decoration: underline;
   color: var(--texto);
   font-weight: bold;
+}
+footer{
+  height: 100px;
+  background-color: var(--texto);
+  border-top-left-radius:10%;
+  border-top-right-radius:10% ;
+}
+footer>p{
+  font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (min-width:769px) {

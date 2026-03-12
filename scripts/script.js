@@ -1,5 +1,5 @@
 alert('Seja bem-vindo ao meu portifólio')
-const nome=prompt('Qual o seu nome ?')
+const nome = prompt('Qual o seu nome ?')
 alert('Ola ' + nome + '! Esteja a vontade para explorar o meu portifólio.')
 
 const botao = document.getElementById('botao-tema');
